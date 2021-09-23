@@ -5,5 +5,197 @@
     <title>HTML Page Sample</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>HTML</h1>
+    <hr />
+    <p>
+      The <b>HyperText Markup Language</b>, or <b>HTML</b> is the standard
+      markup language for documents designed to be displayed in a web browser.
+      It can be assisted by technologies such as
+      <u>Cascading Style Sheets</u> (CSS) and scripting languages such as
+      <u>JavaScript</u>.
+    </p>
+    <p>
+      Web browsers receive <i>HTML</i> documents from a web server or from local
+      storage and render the documents into multimedia web pages. <i>HTML</i>
+      describes the structure of a web page semantically and originally included
+      cues for the appearance of the document.
+    </p>
+    <p>
+      Here are also examples of <sub>subscript</sub> and
+      <sup>superscript</sup> text formatting.
+    </p>
+    <hr />
+    <h2>History</h2>
+    <h3>Development</h3>
+    <p>
+      In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and
+      prototyped ENQUIRE, a system for CERN researchers to use and share
+      documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based
+      hypertext system. Berners-Lee specified HTML and wrote the browser and
+      server software in late 1990. That year, Berners-Lee and CERN data systems
+      engineer Robert Cailliau collaborated on a joint request for funding, but
+      the project was not formally adopted by CERN. In his personal notes from
+      1990 he listed "some of the many areas in which hypertext is used" and put
+      an encyclopedia first.
+    </p>
+    <h3>HTML versions timeline</h3>
+    <ol>
+      <li>HTML 2</li>
+      <li>HTML 3</li>
+      <li>HTML 4</li>
+      <li>HTML 5</li>
+    </ol>
+    <h3>Sample escape sequences</h3>
+    <ul>
+      <li>&amp;amp;</li>
+      <li>&amp;lt;</li>
+      <li>&amp;gt;</li>
+      <li>&amp;quot;</li>
+    </ul>
+    <hr />
+    <h3>Example of a table and how it was generated</h3>
+    <table>
+      <caption>
+        Music bands I have discogaphies of
+      </caption>
+      <thead>
+        <colgroup>
+          <col />
+          <col width="15%" />
+          <col width="15%" />
+          <col width="40%" />
+        </colgroup>
+        <tr>
+          <th scope="col">Artist Name</th>
+          <th scope="col">Discography From</th>
+          <th scope="col">Discography To</th>
+          <th scope="col">Genres</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A Day to Remember</td>
+          <td>2003</td>
+          <td>2021</td>
+          <td>Acoustic Rock, Pop Punk, Post-Hardcore</td>
+        </tr>
+        <tr>
+          <td>Architects</td>
+          <td>2005</td>
+          <td>2021</td>
+          <td>Hardcore, Metalcore</td>
+        </tr>
+        <tr>
+          <td>Breaking Benjamin</td>
+          <td>2001</td>
+          <td>2015</td>
+          <td>Alternative Metal, Hard Rock</td>
+        </tr>
+        <tr>
+          <td>Bullet for My Valentine</td>
+          <td>2005</td>
+          <td>2013</td>
+          <td>Alternative Metal, Metalcore</td>
+        </tr>
+        <tr>
+          <td>Jimmy Eat World</td>
+          <td>1994</td>
+          <td>2016</td>
+          <td>Alternative Rock, Emo, Pop Punk</td>
+        </tr>
+        <tr>
+          <td>Lostprophets</td>
+          <td>2000</td>
+          <td>2012</td>
+          <td>Alternative Rock</td>
+        </tr>
+        <tr>
+          <td>Lumen</td>
+          <td>2003</td>
+          <td>2013</td>
+          <td>Alternative Rock, Alternative Metal, Hardcore Punk</td>
+        </tr>
+        <tr>
+          <td>My Chemical Romance</td>
+          <td>2002</td>
+          <td>2014</td>
+          <td>Alternative Rock, Pop Punk, Punk Rock</td>
+        </tr>
+        <tr>
+          <td>Simple Plan</td>
+          <td>2003</td>
+          <td>2012</td>
+          <td>Alternative Rock, Emo, Pop Punk</td>
+        </tr>
+        <tr>
+          <td>Stigmata</td>
+          <td>2004</td>
+          <td>2019</td>
+          <td>Acoustic Rock, Alternative Metal, Metalcore</td>
+        </tr>
+        <tr>
+          <td>Story of the Year</td>
+          <td>2004</td>
+          <td>2017</td>
+          <td>Emo, Pop Punk, Post-Hardcore</td>
+        </tr>
+        <tr>
+          <td>We Came as Romans</td>
+          <td>2008</td>
+          <td>2017</td>
+          <td>Metalcore, Post-Hardcore</td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <p>
+        The table you have seen above was generated automatically, but not
+        without a cost.
+      </p>
+      <p>Embedding CSS styles to the HTML head as strings:</p>
+      <img src="images/CSS-Styles-Embedding.jpg" />
+      <p>Building the table itself:</p>
+      <img src="images/Building-Tables.jpg" />
+      <p>
+        Yep, the XDocument, XElement, and XAttribute API was originally for XML:
+      </p>
+      <img src="images/HTML-Is-XML.jpg" />
+      <p>
+        Here you can check this beautiful HTML generator yourself:
+        <a
+          href="https://github.com/AndreyTalanin/MusicLibraryCatalogBuilder/"
+          target="_blank"
+          >AndreyTalanin / MusicLibraryCatalogBuilder (GitHub.com)</a
+        >.
+      </p>
+      <p><q>Some quote about the Internet.</q> (c) Charles the Great, 811 AD</p>
+    </div>
+    <form action="/form/submit">
+      <label for="firstname">First name:</label><br />
+      <input
+        type="text"
+        id="firstname"
+        name="firstname"
+        placeholder="First name"
+      /><br />
+      <label for="lastname">Last name:</label><br />
+      <input
+        type="text"
+        id="lastname"
+        name="lastname"
+        placeholder="Last name"
+      />
+      <br />
+      <label for="review">Review:</label><br />
+      <input
+        type="text"
+        id="review"
+        name="review"
+        placeholder="Your opinion about the article."
+      />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
